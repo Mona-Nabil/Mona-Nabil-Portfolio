@@ -32,18 +32,14 @@ const About = () => {
           </div>
 
           <p>
-            Hey there! 👋 I'm Mona, and this is Zeppelin, who you'll meet soon!
-            I'm a vibrant Code Explorer passionate about blending art and
-            technology. As a full-stack software engineer, I specialize in
-            uniting front-end and back-end development. With skills in
-            JavaScript, React, HTML, CSS, GIT, and API integration, I bring over
-            9 years of diverse experience spanning Management, Banking, Customer
-            Service, Sales, Fashion, and Retail. This background shapes my
-            ability to innovate and strategize effectively in the tech industry.
+            Hey there! I'm Mona, but you can call me M. I'm a vibrant Code
+            Explorer passionate about blending art and technology. As a
+            full-stack software engineer, I specialize in uniting front-end and
+            back-end development.
           </p>
 
           <a href="#contact" className="btn btn-primary">
-            Let's Talk!
+            Let's Talk More!
           </a>
         </div>
       </div>

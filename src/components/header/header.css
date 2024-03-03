@@ -44,12 +44,14 @@ header {
 /* ME style */
 
 /* ME style */
+/* ME style */
 .me {
   background: linear-gradient(var(--color-primary-variant), transparent);
   width: 20rem;
   max-height: calc(100vh - 10rem); /* Adjusted height */
   position: absolute;
-  left: calc(50% - 12rem);
+  left: 50%; /* Position at 50% of container width */
+  transform: translateX(-50%); /* Translate back by half of its own width */
   margin-top: 2.5rem;
   border-radius: 12rem;
   overflow: hidden;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me.jpg";
+import aboutImage from "../../assets/about.jpg";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 
@@ -13,7 +13,7 @@ const About = () => {
         <div className="about__me">
           <div className="about__me-image">
             {/* eslint-disable-next-line */}
-            <img src={ME} alt="Profile picture" />{" "}
+            <img src={aboutImage} alt="Profile picture" />{" "}
           </div>
         </div>
         <div className="about__content">

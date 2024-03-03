@@ -43,16 +43,17 @@ header {
 
 /* ME style */
 
+/* ME style */
 .me {
   background: linear-gradient(var(--color-primary-variant), transparent);
-  width: 24rem;
-  height: 50rem;
+  width: 20rem;
+  max-height: calc(100vh - 10rem); /* Adjusted height */
   position: absolute;
   left: calc(50% - 12rem);
-  margin-top: 2rem;
-  border-radius: 12rem 12rem 12rem 12rem;
+  margin-top: 2.5rem;
+  border-radius: 12rem;
   overflow: hidden;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  padding: 1.5rem;
 }
 
 /* Scroll Down style */

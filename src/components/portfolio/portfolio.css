@@ -14,13 +14,14 @@
   padding: 1.2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
-  transition: var(--transition);
+  transition: transform 0.3s ease;
   position: relative; /* Ensure the relative position for absolute positioning */
 }
 
 .portfolio__item:hover {
-  border-color: var(--color-primary-varient);
+  border-color: var(--color-primary-variant);
   background: transparent;
+  transform: scale(1.1);
 }
 
 .portfolio__item-image {
@@ -44,6 +45,7 @@
 
 .portfolio__item:hover .portfolio__item-description {
   display: block;
+  transform: scale(1.1);
 }
 
 .portfolio__item h3 {

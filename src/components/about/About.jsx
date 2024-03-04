@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-// import aboutImage from "../../assets/about.jpg";
 import redriding from "../../assets/redriding.jpg";
 
 import { FaAward } from "react-icons/fa";

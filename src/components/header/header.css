@@ -42,9 +42,6 @@ header {
 }
 
 /* ME style */
-
-/* ME style */
-/* ME style */
 .me {
   background: transparent;
   width: 20rem;
@@ -53,9 +50,11 @@ header {
   left: 50%; /* Position at 50% of container width */
   transform: translateX(-50%); /* Translate back by half of its own width */
   margin-top: 2.5rem;
-  border-radius: 6rem;
   overflow: hidden;
   padding: 1.5rem;
+  border-top-left-radius: 20px; /* Adjust the value for desired roundness */
+  border-top-right-radius: 20px; /* Adjust the value for desired roundness */
+  border: 2px solid transparent; /* Transparent border to maintain space for pseudo-elements */
 }
 
 /* Scroll Down style */

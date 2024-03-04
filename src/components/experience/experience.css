@@ -11,13 +11,14 @@
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 2px solid transparent;
-  transition: var(--transition);
+  transition: transform 0.3s ease;
   margin-left: 10%;
 }
 .experience__container > div:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
+  transform: scale(1.1);
 }
 
 .experience__container > div h3 {

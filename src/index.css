@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #1f1f38;
-  --color-bg-variant: #0e0e33;
+  --color-bg-variant: #031441;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
@@ -38,7 +38,10 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(assets/bg-texture.png);
+  background-image: url(assets/bg-solid.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* General Styles */
@@ -96,13 +99,14 @@ a:hover {
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
-  transition: var(--transition);
+  transition: transform 0.3s ease;
 }
 
 .btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
-  border-color: transparent;
+  border-color: var(--color-primary-variant);
+  transform: scale(1.1);
 }
 
 .btn-primary {
@@ -112,6 +116,7 @@ a:hover {
 
 img {
   display: block;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }

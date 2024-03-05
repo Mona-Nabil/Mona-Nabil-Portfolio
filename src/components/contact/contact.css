@@ -22,12 +22,13 @@
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
-  transition: var(--transition);
+  transition: transform 0.3s ease;
 }
 
 .contact__option:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
+  transform: scale(1.1);
 }
 
 .contact__option-icons {

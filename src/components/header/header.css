@@ -16,9 +16,9 @@ header {
 /* CTS Style */
 
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
   justify-content: center;
 }
 
@@ -33,6 +33,12 @@ header {
   left: 1rem;
   bottom: 3rem;
 }
+.header__socials a {
+  transition: var(--transition);
+}
+.header__socials a:hover {
+  transform: scale(1.2);
+}
 
 .header__socials::after {
   content: "";
@@ -44,17 +50,16 @@ header {
 /* ME style */
 .me {
   background: transparent;
-  width: 20rem;
-  max-height: calc(100vh - 10rem); /* Adjusted height */
+  width: 18rem;
+  max-height: calc(100vh - 6rem);
   position: absolute;
-  left: 50%; /* Position at 50% of container width */
+  left: 50%;
   transform: translateX(-50%);
   margin-top: 1rem;
   overflow: hidden;
   padding: 1rem;
-  border-top-left-radius: 20px; /* Adjust the value for desired roundness
-  border-top-right-radius: 20px; /* Adjust the value for desired roundness */
-  border: 2px solid transparent; /* Transparent border to maintain space for pseudo-elements */
+  border: 2px solid transparent;
+  object-fit: cover;
 }
 
 /* Scroll Down style */
@@ -72,10 +77,12 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 70vh;
+    min-height: 65vh;
+    overflow: hidden;
   }
   me {
     width: 50%;
+    height: 100vh;
     margin: 2rem auto 2rem;
   }
 }

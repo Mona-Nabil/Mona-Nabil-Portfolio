@@ -53,15 +53,15 @@ header {
 .me {
   background: transparent;
   width: 22rem;
-  max-height: calc(100vh - 11rem);
+  height: 50vh;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   margin-top: 1rem;
   overflow: hidden;
-  padding: 1rem;
+  padding: 3rem;
   border: 2px solid transparent;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Scroll Down style */
@@ -80,11 +80,6 @@ header {
 @media screen and (max-width: 1024px) {
   .container {
     width: 86%;
-    /* background: red; */
-  }
-  header {
-    /* min-height: 65vh; */
-    /* overflow: hidden; */
   }
 
   me {

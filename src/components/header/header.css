@@ -1,6 +1,7 @@
 header {
   height: 100vh;
   padding-top: 7rem;
+  position: relative;
   justify-items: center;
   overflow: hidden;
 }
@@ -51,8 +52,8 @@ header {
 /* ME style */
 .me {
   background: transparent;
-  width: 18rem;
-  max-height: calc(100vh - 6rem);
+  width: 22rem;
+  max-height: calc(100vh - 11rem);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -77,14 +78,19 @@ header {
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 
 @media screen and (max-width: 1024px) {
-  header {
-    min-height: 65vh;
-    overflow: hidden;
+  .container {
+    width: 86%;
+    /* background: red; */
   }
+  header {
+    /* min-height: 65vh; */
+    /* overflow: hidden; */
+  }
+
   me {
     width: 50%;
     height: 100vh;
-    margin: 2rem auto 2rem;
+    margin: 2rem auto;
   }
 }
 
